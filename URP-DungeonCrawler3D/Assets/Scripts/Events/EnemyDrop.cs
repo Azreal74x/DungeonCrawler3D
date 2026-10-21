@@ -24,9 +24,9 @@ public class EnemyDrop : MonoBehaviour {
   private void DropItem() {
     //print(transform.position);
     //GameObject newDrop = Instantiate(dropItem, transform.position + new Vector3(0f, 1f, 0f), Quaternion.identity);
-    GameObject newDrop = Instantiate(dropItem, new Vector3(transform.position.x, 1f, transform.position.z), Quaternion.identity);
+    //GameObject newDrop = Instantiate(dropItem, new Vector3(transform.position.x, 1f, transform.position.z), Quaternion.identity);
     //GameObject newDrop = Instantiate(dropItem, transform.position, Quaternion.identity);
-    //GameObject newDrop = Instantiate(dropItem, new Vector3(transform.position.x, player.transform.position.y, transform.position.z), Quaternion.identity);
+    GameObject newDrop = Instantiate(dropItem, new Vector3(transform.position.x, player.transform.position.y - 1, transform.position.z), Quaternion.identity);
     currentDrop = newDrop;
   }
 

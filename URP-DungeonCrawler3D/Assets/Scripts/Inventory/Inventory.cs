@@ -10,8 +10,8 @@ public class Inventory : MonoBehaviour {
 
   public event Action<ItemTypeSO, int> onItemCountChanged;
 
-/*  [SerializeField] private ItemTypeSO testHealthPotionSO;
-  [SerializeField] private ItemTypeSO testBurnResistanceSO;*/
+  [SerializeField] private ItemTypeSO testHealthPotionSO;
+  [SerializeField] private ItemTypeSO testBurnResistanceSO;
 
   [SerializeField] private GameObject inventoryUI;
   private void Start() {
@@ -52,7 +52,7 @@ public class Inventory : MonoBehaviour {
         inventoryUI.transform.localScale = new Vector3(0,0,0);
     }
 
-    /*if (Input.GetKeyDown("1")) {
+    if (Input.GetKeyDown("1")) {
       if (TryUse(testHealthPotionSO)) {
         Debug.Log("Used health potion!");
       }
@@ -68,6 +68,6 @@ public class Inventory : MonoBehaviour {
       else {
         Debug.Log("No burn resistance in inventory!");
       }
-    }*/
+    }
   }
 }

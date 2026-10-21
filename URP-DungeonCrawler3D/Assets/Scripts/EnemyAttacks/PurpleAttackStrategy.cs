@@ -8,7 +8,8 @@ public class PurpleAttackStrategy : ScriptableObject, IAttackStrategy {
   [SerializeField] private float fireballSpeed;
 
   public void Attack(Health playerHealth, Health enemyHealth, EnemyMovement enemyMovement) {
-    GameObject fireballSpawnPoint = GameObject.FindGameObjectWithTag("FireballSpawnPoint");
+    //GameObject fireballSpawnPoint = GameObject.FindGameObjectWithTag("FireballSpawnPoint");
+    Transform fireballSpawnPoint = enemyMovement.transform.Find("FireballSpawnPoint");
 
     Transform camera = Camera.main.transform;
     Vector3 direction = (camera.position - fireballSpawnPoint.transform.position).normalized;
