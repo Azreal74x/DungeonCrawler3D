@@ -1,5 +1,4 @@
-**Hey! Thanks for checking out my Dungeon Crawler 3D project :)**
-
+**Thanks for checking out my Dungeon Crawler 3D project!**
 I developed this project on my own using C#, Unity, and free assets. My main goal was to create a simple 3D dungeon crawler while focusing on clean, reusable, and organized code. Have a look at the details below. 
 
 **Reusable components:**
