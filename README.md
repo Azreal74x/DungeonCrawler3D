@@ -1,6 +1,8 @@
-**Thanks for checking out my Dungeon Crawler 3D project!**
+# **Thanks for checking out my Dungeon Crawler 3D project!**
 
 I developed this project on my own using C#, Unity, and free assets. My main goal was to create a simple 3D dungeon crawler while focusing on clean, reusable, and organized code. Have a look at the details below. 
+
+#
 
 **Reusable components:**
 
@@ -17,7 +19,14 @@ Events allow different scripts to react when needed. For example, an enemy's dea
 **Prefabs:**
 
 Enemies, projectiles, and other objects are instantiated and destroyed through scripts when needed.
-
-**Important! Unity Input System**
+#
+# **Important! Unity Input System**
 
 When opening the project, Unity may ask you to enable the new Input System backends. Please select "No", as this project uses Unity's old Input Manager instead.
+
+#
+
+https://github.com/user-attachments/assets/b90f5cff-329b-4b3b-b5c0-b85b3bb9567a
+
+
+
